@@ -19,7 +19,7 @@
 }
 .tipsy-arrow {
   position: absolute;
-  background: image-url('tipsy/tipsy.gif') no-repeat top left;
+  background: url(image-path('tipsy/tipsy.gif')) no-repeat top left;
   width: 9px;
   height: 5px;
 }

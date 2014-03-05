@@ -13,10 +13,10 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = ">= 1.3.6"
 
-  s.add_dependency "railties", "~> 3.0"
+  s.add_dependency "railties", ">= 3.0"
   s.add_dependency "sass-rails"
   s.add_development_dependency "bundler", "~> 1.1.0"
-  s.add_development_dependency "rails",   "~> 3.0"
+  s.add_development_dependency "rails",   ">= 3.0"
 
   s.files        = `git ls-files`.split("\n")
   s.executables  = `git ls-files`.split("\n").select{|f| f =~ /^bin/}

@@ -8,7 +8,7 @@ For more information about Tipsy, visit http://onehackoranother.com/projects/jqu
 
 1. Add the gem to your `Gemfile`:
 
-        gem 'tipsy-rails', git: 'git://github.com/thinkswan/tipsy-rails.git', branch: 'rails4'
+        gem 'tipsy-rails'
 
 2. Require the CSS in your `application.css` manifest:
 
